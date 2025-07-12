@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://roxiler-system-ratings-6s3p.vercel.app/api';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
